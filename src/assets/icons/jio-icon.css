@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "jio-icon";
+  src: url('jio-icon.eot?v=0.0.1');
+  src: url('jio-icon.eot?#iefix&v=0.0.1') format('embedded-opentype'), url('jio-icon.woff2?v=0.0.1') format('woff2'), url('jio-icon.woff?v=0.0.1') format('woff'), url('jio-icon.ttf?v=0.0.1') format('truetype'), url('jio-icon.svg?v=0.0.1#jio-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  display: inline-block;
+  font: normal normal normal 14px/1 "jio-icon";
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.icon-2x { font-size: 2em; }
+.icon-3x { font-size: 3em; }
+.icon-4x { font-size: 4em; }
+.icon-5x { font-size: 5em; }
+.icon-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.icon-add:before { content: "\ea01" }
+.icon-adult-cow:before { content: "\ea02" }
+.icon-arrow-down-icon:before { content: "\ea03" }
+.icon-artificial-insemination:before { content: "\ea04" }
+.icon-back-button:before { content: "\ea05" }
+.icon-calendar-icon:before { content: "\ea06" }
+.icon-calf-icon:before { content: "\ea07" }
+.icon-card-view:before { content: "\ea08" }
+.icon-change-group:before { content: "\ea09" }
+.icon-charts-icon:before { content: "\ea0a" }
+.icon-circ-rect:before { content: "\ea0b" }
+.icon-cow-profile-icon:before { content: "\ea0c" }
+.icon-cross-icon:before { content: "\ea0d" }
+.icon-delete:before { content: "\ea0e" }
+.icon-device-icon:before { content: "\ea0f" }
+.icon-drop:before { content: "\ea10" }
+.icon-dry-milking-icon:before { content: "\ea11" }
+.icon-edit-icon:before { content: "\ea12" }
+.icon-eye-noview:before { content: "\ea13" }
+.icon-eye-view:before { content: "\ea14" }
+.icon-family-tree-icon:before { content: "\ea15" }
+.icon-female:before { content: "\ea16" }
+.icon-filter:before { content: "\ea17" }
+.icon-health-alert:before { content: "\ea18" }
+.icon-heifer:before { content: "\ea19" }
+.icon-high-activity-alert:before { content: "\ea1a" }
+.icon-info:before { content: "\ea1b" }
+.icon-key-hole-icon:before { content: "\ea1c" }
+.icon-lactating-icon:before { content: "\ea1d" }
+.icon-list-view:before { content: "\ea1e" }
+.icon-low-milk-yield:before { content: "\ea1f" }
+.icon-male:before { content: "\ea20" }
+.icon-menu:before { content: "\ea21" }
+.icon-milk-entry:before { content: "\ea22" }
+.icon-notification:before { content: "\ea23" }
+.icon-otp-Lock:before { content: "\ea24" }
+.icon-plus:before { content: "\ea25" }
+.icon-pregnancy-alert:before { content: "\ea26" }
+.icon-pregnancy-check:before { content: "\ea27" }
+.icon-question-mark:before { content: "\ea28" }
+.icon-retired-cow:before { content: "\ea29" }
+.icon-search-icon:before { content: "\ea2a" }
+.icon-semen-icon:before { content: "\ea2b" }
+.icon-sort:before { content: "\ea2c" }
+.icon-threedots:before { content: "\ea2d" }
+.icon-user-profile:before { content: "\ea2e" }

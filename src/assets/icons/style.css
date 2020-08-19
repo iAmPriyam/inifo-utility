@@ -1,0 +1,346 @@
+/* @font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?gujvlo');
+  src:  url('icomoon.eot?gujvlo#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?gujvlo') format('truetype'),
+    url('icomoon.woff?gujvlo') format('woff'),
+    url('icomoon.svg?gujvlo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  use !important to prevent issues with browser extensions that change fonts
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  Better Font Rendering ===========
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add-circle:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-back:before {
+  content: "\e901";
+}
+.icon-calendar:before {
+  content: "\e902";
+  color: #6dbf67;
+}
+.icon-chart:before {
+  content: "\e903";
+}
+.icon-checkbox-false:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-checkbox-true:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-close:before {
+  content: "\e906";
+}
+.icon-column-sort:before {
+  content: "\e907";
+}
+.icon-cow-adult:before {
+  content: "\e908";
+}
+.icon-cow-calf:before {
+  content: "\e909";
+}
+.icon-cow-heifer:before {
+  content: "\e90a";
+}
+.icon-cow-retired:before {
+  content: "\e90b";
+}
+.icon-delete:before {
+  content: "\e90c";
+  color: #e30513;
+}
+.icon-delete-circle .path1:before {
+  content: "\e90d";
+  color: rgb(247, 171, 32);
+}
+.icon-delete-circle .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(200, 54, 56);
+}
+.icon-delete-circle .path3:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-delete-circle .path4:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-delete-circle .path5:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-delete-circle .path6:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-details:before {
+  content: "\e913";
+  color: #666;
+}
+.icon-down:before {
+  content: "\e914";
+  color: #fff;
+}
+.icon-drop:before {
+  content: "\e915";
+  color: #f37920;
+}
+.icon-edit:before {
+  content: "\e916";
+  color: #666;
+}
+.icon-family-tree:before {
+  content: "\e917";
+}
+.icon-filter:before {
+  content: "\e918";
+  color: #fff;
+}
+.icon-gau-circle .path1:before {
+  content: "\e919";
+  color: rgb(247, 171, 32);
+}
+.icon-gau-circle .path2:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-gau-circle .path3:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-gau-circle .path4:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-gau-circle .path5:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-gau-circle .path6:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-gau-circle .path7:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-gau-circle .path8:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-hide-password:before {
+  content: "\e921";
+  color: #666;
+}
+.icon-info:before {
+  content: "\e922";
+  color: #6dbf67;
+}
+.icon-jio-logo .path1:before {
+  content: "\e923";
+  color: rgb(252, 184, 19);
+}
+.icon-jio-logo .path2:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-list:before {
+  content: "\e925";
+  color: #fff;
+}
+.icon-male:before {
+  content: "\e926";
+}
+.icon-new-password .path1:before {
+  content: "\e927";
+  color: rgb(247, 171, 32);
+}
+.icon-new-password .path2:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-new-password .path3:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-notification:before {
+  content: "\e92a";
+  color: #fff;
+}
+.icon-otp .path1:before {
+  content: "\e92b";
+  color: rgb(247, 171, 32);
+}
+.icon-otp .path2:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-otp .path3:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-question-circle .path1:before {
+  content: "\e92e";
+  color: rgb(247, 171, 32);
+}
+.icon-question-circle .path2:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-question-circle .path3:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-question-circle .path4:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-search:before {
+  content: "\e932";
+  color: #fff;
+}
+.icon-show-password:before {
+  content: "\e933";
+  color: #666;
+}
+.icon-sort:before {
+  content: "\e934";
+  color: #fff;
+}
+.icon-tiles:before {
+  content: "\e935";
+  color: #fff;
+}
+.icon-user:before {
+  content: "\e936";
+  color: #fff;
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+ */
+
+/* @font-face {
+  font-family: "jio-icon";
+  src: url('./default/jio-icon.eot?v=0.0.1');
+  src: url('./default/jio-icon.eot?#iefix&v=0.0.1') format('embedded-opentype'), url('./default/jio-icon.woff2?v=0.0.1') format('woff2'), url('./default/jio-icon.woff?v=0.0.1') format('woff'), url('./default/jio-icon.ttf?v=0.0.1') format('truetype'), url('./default/jio-icon.svg?v=0.0.1#jio-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} */
+@font-face {
+  font-family: "jio-icon";
+  src: url('./default/jio-icon.eot?v=0.0.1');
+  src: url('./default/jio-icon.eot?#iefix&v=0.0.1') format('embedded-opentype'), url('./default/jio-icon.woff2?v=0.0.1') format('woff2'), url('./default/jio-icon.woff?v=0.0.1') format('woff'), url('./default/jio-icon.ttf?v=0.0.1') format('truetype'), url('./default/jio-icon.svg?v=0.0.1#jio-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  display: inline-block;
+  font: normal normal normal 14px/1 "jio-icon";
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.icon-2x { font-size: 2em; }
+.icon-3x { font-size: 3em; }
+.icon-4x { font-size: 4em; }
+.icon-5x { font-size: 5em; }
+.icon-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.icon-add:before { content: "\ea01" }
+.icon-adult-cow:before { content: "\ea02" }
+.icon-arrow-down-icon:before { content: "\ea03" }
+.icon-artificial-insemination:before { content: "\ea04" }
+.icon-back-button:before { content: "\ea05" }
+.icon-calendar-icon:before { content: "\ea06" }
+.icon-calf-icon:before { content: "\ea07" }
+.icon-card-view:before { content: "\ea08" }
+.icon-change-group:before { content: "\ea09" }
+.icon-charts-icon:before { content: "\ea0a" }
+.icon-circ-rect:before { content: "\ea0b" }
+.icon-cow-profile-icon:before { content: "\ea0c" }
+.icon-cross-icon:before { content: "\ea0d" }
+.icon-delete:before { content: "\ea0e" }
+.icon-device-icon:before { content: "\ea0f" }
+.icon-drop:before { content: "\ea10" }
+.icon-dry-milking-icon:before { content: "\ea11" }
+.icon-edit-icon:before { content: "\ea12" }
+.icon-eye-noview:before { content: "\ea13" }
+.icon-eye-view:before { content: "\ea14" }
+.icon-family-tree-icon:before { content: "\ea15" }
+.icon-female:before { content: "\ea16" }
+.icon-filter:before { content: "\ea17" }
+.icon-health-alert:before { content: "\ea18" }
+.icon-heifer:before { content: "\ea19" }
+.icon-high-activity-alert:before { content: "\ea1a" }
+.icon-info:before { content: "\ea1b" }
+.icon-key-hole-icon:before { content: "\ea1c" }
+.icon-lactating-icon:before { content: "\ea1d" }
+.icon-list-view:before { content: "\ea1e" }
+.icon-low-milk-yield:before { content: "\ea1f" }
+.icon-male:before { content: "\ea20" }
+.icon-menu:before { content: "\ea21" }
+.icon-milk-entry:before { content: "\ea22" }
+.icon-notification:before { content: "\ea23" }
+.icon-otp-Lock:before { content: "\ea24" }
+.icon-plus:before { content: "\ea25" }
+.icon-pregnancy-alert:before { content: "\ea26" }
+.icon-pregnancy-check:before { content: "\ea27" }
+.icon-question-mark:before { content: "\ea28" }
+.icon-retired-cow:before { content: "\ea29" }
+.icon-search-icon:before { content: "\ea2a" }
+.icon-semen-icon:before { content: "\ea2b" }
+.icon-sort:before { content: "\ea2c" }
+.icon-threedots:before { content: "\ea2d" }
+.icon-user-profile:before { content: "\ea2e" }
