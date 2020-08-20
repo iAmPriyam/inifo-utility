@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import {
     Grid,
     TextField,
-    Paper,
     Typography,
     Fab,
     FormControl,
@@ -14,14 +13,13 @@ import {
 import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 import CKEditor from "@ckeditor/ckeditor5-react";
 import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
-import zIndex from "@material-ui/core/styles/zIndex";
-
+import pests_and_diseases from "../shared/constants/pests_and_disease.json";
 const style = {
     main_container: {
         minHeight: "100vh",
     },
     wrapper: {
-        width: "60vw",
+        width: "800px",
         marginTop: "-220px",
         zIndex: "1000",
         marginBottom: "100px",
@@ -32,6 +30,15 @@ const style = {
 };
 
 export default function PestAndDiseases() {
+    const [name, setName] = useState("");
+    const [type, setType] = useState("");
+    const [season, setSeason] = useState("");
+    const [time, setTime] = useState("");
+    const [symptoms, setSymptoms] = useState("");
+    const [measures, setMeasures] = useState("");
+    let data = pests_and_diseases;
+    data = {};
+    console.log(data);
     return (
         <>
             <Grid
@@ -74,27 +81,54 @@ export default function PestAndDiseases() {
                             </Typography>
                             <Divider />
                         </Grid>
-
                         <Grid item xs={6}>
-                            <TextField id="standard-basic" label="Name" />
+                            <FormControl>
+                                <InputLabel htmlFor="age-native-simple">
+                                    Type
+                                </InputLabel>
+                                <Select
+                                    native
+                                    value={type}
+                                    onChange={(e) => {
+                                        setType(e.target.value);
+                                        console.log(type);
+                                    }}
+                                >
+                                    <option disabled />
+                                    <option value="pest">Pest</option>
+                                    <option value="disease">Disease</option>
+                                </Select>
+                            </FormControl>
                         </Grid>
 
                         <Grid item xs={6}>
                             <TextField
                                 id="standard-basic"
-                                label="Scientific Name"
+                                label="Name"
+                                value={name}
+                                onChange={(e) => {
+                                    setName(e.target.value);
+                                }}
                             />
                         </Grid>
+
                         <Grid item xs={6}>
                             <FormControl>
                                 <InputLabel htmlFor="age-native-simple">
                                     Season
                                 </InputLabel>
-                                <Select native>
-                                    <option aria-label="None" value="" />
-                                    <option value={"Kharif"}>Kharif</option>
-                                    <option value={"Rabi"}>Rabi</option>
-                                    <option value={"Kharif & Rabi"}>
+                                <Select
+                                    native
+                                    value={season}
+                                    onChange={(e) => {
+                                        setSeason(e.target.value);
+                                        console.log(season);
+                                    }}
+                                >
+                                    <option disabled />
+                                    <option value="Kharif">Kharif</option>
+                                    <option value="Rabi">Rabi</option>
+                                    <option value="Kharif & Rabi">
                                         Kharif &amp; Rabi
                                     </option>
                                 </Select>
@@ -104,6 +138,10 @@ export default function PestAndDiseases() {
                             <TextField
                                 id="standard-basic"
                                 label="Time/Stage of Occurence"
+                                value={time}
+                                onChange={(e) => {
+                                    setTime(e.target.value);
+                                }}
                             />
                         </Grid>
                         <Grid item container direction="column" xs={12}>
@@ -149,6 +187,7 @@ export default function PestAndDiseases() {
                                 }}
                                 onChange={(event, editor) => {
                                     const data = editor.getData();
+                                    setSymptoms(data);
                                     console.log({ event, editor, data });
                                 }}
                                 onBlur={(event, editor) => {
@@ -212,6 +251,7 @@ export default function PestAndDiseases() {
                                 }}
                                 onChange={(event, editor) => {
                                     const data = editor.getData();
+                                    setMeasures(data);
                                     console.log({ event, editor, data });
                                 }}
                                 onBlur={(event, editor) => {
@@ -223,7 +263,22 @@ export default function PestAndDiseases() {
                             />
                         </Grid>
                         <Grid item xs={12} justify="flex-start" container>
-                            <Button variant="contained" color="primary">
+                            <Button
+                                variant="contained"
+                                color="primary"
+                                onClick={() => {
+                                    const value = {
+                                        name,
+                                        season,
+                                        time,
+                                        symptoms,
+                                        measures,
+                                    };
+                                    let data = { pest: [] };
+                                    data["pest"].push(value);
+                                    console.log(data);
+                                }}
+                            >
                                 Submit
                             </Button>
                         </Grid>
