@@ -1,0 +1,96 @@
+  .licence-style .body-container {
+    margin-top: 53px;
+    margin: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: justify;
+  }
+
+  .licence-style .component-bg {
+    height: 100%;
+  }
+
+  .licence-style .header-top {
+    padding: 30px 0px 10px 0px
+  }
+
+  .licence-style .child-container {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    border-top: 2px solid #dadada;
+    margin-bottom: 40px;
+  }
+
+  .licence-style .margin-top-10 {
+    margin-top: 10px !important;
+  }
+
+  .licence-style .list-style {
+    list-style-type: disc;
+  }
+
+  .licence-style .gap {
+    margin-top: 24px;
+  }
+
+  .licence-style .col-md-1 {
+    min-width: 40px;
+    max-width: 40px;
+  }
+
+  .licence-style .oneLevel {
+    min-width: 60px;
+    max-width: 60px;
+  }
+
+  .licence-style .subColumn {
+    margin-left: 10px;
+  }
+
+  .licence-style .subText {
+    text-decoration: underline;
+  }
+
+  @media only screen and (min-width:501px) and (max-width: 1000px) {
+
+    .licence-style {
+      max-width: 98%;
+    }
+  }
+
+  @media only screen and (min-width:240px) and (max-width: 500px) {
+    .licence-style {
+      max-width: 98%;
+    }
+
+    .licence-style {
+      max-width: 400px;
+      padding: 0 !important;
+    }
+  }
+
+  @media only screen and (min-width:240px) and (max-width: 767px) {
+    body {
+      font-size: 12px;
+    }
+
+    .licence-style h1 {
+      font-size: 2rem;
+    }
+
+    
+
+    .licence-style .body-container {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    .licence-style .gap {
+      margin-top: 10px;
+    }
+
+    .licence-style .subColumn {
+      margin-left: 0;
+    }
+  }

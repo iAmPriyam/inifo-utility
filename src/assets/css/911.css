@@ -1,0 +1,121 @@
+.back-btn-profile {
+  display: none !important;
+}
+
+.user-profile-popup > h1 {
+  display: none !important;
+}
+.user-profile-popup h1 {
+  width: auto !important;
+}
+
+.container-login .login-box {
+  width: 90% !important;
+}
+
+.login-box-icon {
+  margin-top: 5vh !important;
+  margin-bottom: 3vh !important;
+}
+.container-login .login-box .card {
+  padding-bottom: 4vh !important;
+}
+
+footer {
+  display: none !important;
+}
+#dashboard .card-stack .row .card {
+  padding: 17px !important;
+  height: auto !important;
+  margin-bottom: 0 !important;
+}
+.mob-tab h2 {
+  position: relative;
+}
+.mob-tab h2:after {
+  content: "";
+  background-color: #f37920;
+  color: #f37920;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  bottom: -7px;
+  left: 48%;
+}
+.mob-tab h2.deActive:after {
+  background-color: transparent;
+}
+.sticky-alert-header {
+  min-width: 98% !important;
+}
+.addButton {
+  position: absolute;
+  top: 3% !important;
+  right: 3% !important;
+}
+.addButton i {
+  font-size: 1.5rem !important;
+}
+.edit-profile-mobile {
+  position: absolute;
+  top: 1px;
+  right: 2rem;
+  display: block !important;
+  font-size: 24px;
+}
+
+.add-button-dashboard-opener {
+  position: absolute;
+  /* z-index: 1000; */
+  top: -2.5rem;
+  right: -1rem;
+}
+.add-button-dashboard-opener i {
+  font-size: 1.5rem;
+}
+
+.list-main-wrapper{
+  width: 100% !important;
+  max-width:  100% !important;
+}
+.semen-list-wrapper{
+  padding-left:0 !important;
+  padding-right:0 !important;
+  height: 470px !important;
+  overflow-x: hidden;
+}
+.application .overlay-modal .modal {
+  border-radius: 0px;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 96vh;
+  min-width: auto;
+  overflow: auto;
+  padding-bottom: 50px;
+}
+.application .overlay-modal .modal .modal-close {
+  left: 2rem;
+  top: 2rem;
+  font-size: 1.5rem;
+}
+.application .overlay-modal .modal .popup-container {
+  margin: 20px 0;
+}
+
+.search-input-holder {
+  width: 91% !important;
+}
+.search-popup .search-result {
+  width: 91% !important;
+}
+.alert-three-dots {
+  font-size: 24px;
+  top: 0.5rem;
+  position: absolute;
+}
+.MuiMenu-paper, .MuiPopover-paper {
+  max-height: calc(100% - 350px) !important;
+}

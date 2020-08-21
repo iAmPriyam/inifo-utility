@@ -1,0 +1,325 @@
+{
+    "pests": [
+        {
+            "Name of the pest": "Stem borer (Scirpophaga incertulas)",
+            "Season": "Kharif & Rabi",
+            "Time/Stage of occurence": "Vegetative & Flowering stage",
+            "Symptoms": [
+                "Presence of brown coloured egg mass near leaf tip in seedlings in nursery",
+                "Dead Hearts seen in the vegetative stage",
+                "In grown up plant, whole panicle becomes dried \u201cwhite ear\u201d"
+            ],
+            "Control Measures": [
+                "Nip the seedling tips before transplanting to remove egg masses. ",
+                "Spray neem seed extracts @ 15ml/litre water. Use light traps 5 to 8 Nos/ ha to attract the stem borer moths.",
+                "Apply granular chemical insecticides like Fipronil 0.3G @25kg/ha or Chorpyriphos or Chlorpyriphos-methyl 10G @ 10kg/ha. ",
+                "Spray Chlorpyriphos 20 EC @ 2 litre/ha or Fipronil 5SC @0.8 litre/ha."
+            ]
+        },
+        {
+            "Name of the pest": "leaf folder (Cnaphalocrocis medinalis)",
+            "Season": "Kharif & Rabi",
+            "Time/Stage of occurence": "Vegetative stage",
+            "Symptoms": [
+                "Larvae feed inside the folded leaf creating longitudinal white and transparent streaks on the blade;",
+                "Tubular folded leaves"
+            ],
+            "Control Measures": [
+                "Economic Threshold Level (ETL) : 10% leaf damage at vegetative phase and 5% of flag leaf damage at flowering.                                                                 ",
+                "Five to six releases of the egg parasitoid Trichogramma chilonis @1,00,000 adults. parasites per ha starting from 15 days after planting.",
+                "In the crop season, spray /apply any one of the following insectcides- Phosalone 35 EC 1500 ml/ha, Chlorpyriphos 20 EC 1250 ml/ha, Acephate 75 % SP 666-1000 ml/ha, Azadirachtin 0.03% 1000 ml/ha, Carbosulfan 6% G 16.7 kg/ha."
+            ]
+        },
+        {
+            "Name of the pest": "Brown plant hopper (Nilaparvata lugens)",
+            "Season": "Kharif & Rabi",
+            "Time/Stage of occurence": "Reproductive stage",
+            "Symptoms": [
+                "Yellowing of the plant.",
+                "Crescent shaped white eggs on the midrib or on leaf sheath. ",
+                "Brown colour nymphs are seen on the leaves.",
+                "Circular patches of yellowed or dried plants seen in the field."
+            ],
+            "Control Measures": [
+                "Water should be drained off from the field and should water the field after two days. ",
+                "Should open the alleyways for every 20 cm in the main field.",
+                "Control this pest at the nursery stage itself by spraying Monocrotophos 35 EC @ 2 ml/litre of water.",
+                "On the main crop, use Imidachlorpid @ 1ml/ litre or Thiomethoxam @ 0.5 gm/litre or Buprofezin 1.5 ml/litre                                                                             ",
+                "Avoid spraying of chlorpyrifos and pyrethroid combinations as it favors resistance development in the insect."
+            ]
+        },
+        {
+            "Name of the pest": "Rice Hispa (Dicladispa armigera)",
+            "Season": "Kharif & Rabi",
+            "Time/Stage of occurence": "Vegetative stage",
+            "Symptoms": [
+                "Tunneling through leaf tissue causing irregular translucent white patches parallel to the veins.",
+                "Adults feed on chlorophyll by scraping, causing white parallel streaks."
+            ],
+            "Control Measures": ["Spraying of Chlorpyriphos 20% EC 1250 ml/ha"]
+        },
+        {
+            "Name of the pest": "Rice gall midge (Orseolia oryzae)",
+            "Season": "Kharif",
+            "Time/Stage of occurence": "Tillering stage",
+            "Symptoms": [
+                "Gall midge maggot bore into bud or stalk of rice plant and feeds on internal contents causing the formation of tubular galls at the base of the tillers.",
+                "This leads to elongation of leaf sheath which is commonly called as silver shoot or onion shoot.",
+                "The leaves become wilted, deformed and curled up."
+            ],
+            "Control Measures": [
+                "When ETL is more than 10% silver shoots, take up control measures.",
+                "Release Platygaster oryzae parasitised galls @ 1/10 m2 at the 10th day after transplanting. ",
+                "Harvest the crop and plough the field immediately, remove the alternate hosts like Echinocloa. ",
+                "In the nursery stage  carbofuran 160 grams/ cent or phorate 50 grams/ cent granules should be applied in 10-15 days after the germination.",
+                "In main field carbofuran 10 Kg/acre or phorate 5 Kg/acre granules are to be applied in 10-15 DAT.",
+                "Spray any one of the following insectcides: Phosalone 35 EC 1500 ml/ha, Carbosulfan 25% EC 800-1000 ml/ha, Chlorpyriphos 20% EC 1250 ml/ha, Fipronil 5% SC 1000-1500 gm/ha."
+            ]
+        },
+        {
+            "Name of the pest": "Leaf Mite (Steneotarsonemus spinki)",
+            "Season": "Kharif & Rabi",
+            "Time/Stage of occurence": "Booting stage",
+            "Symptoms": [
+                "Infested plants look pale; loss of chlorophyll from  the leaves results in a dirty brown colour."
+            ],
+            "Control Measures": [
+                "Cultural controls include ploughing stubble after harvesting crops and ensuring no re-growth of plant material for winter.     ",
+                "Avoidance of second-crop of paddy.  ",
+                "Systemic miticide is the best option for chemical control, e.g., Spiromesifen at 72 gm a.i/ha."
+            ]
+        },
+        {
+            "Name of the pest": "Panicle mite (Steneotarsonemus spinki)",
+            "Season": "Kharif & Rabi",
+            "Time/Stage of occurence": "Booting stage to the milk stage",
+            "Symptoms": [
+                "fested plants look pale and loss of chlorophyll on the leaves will be seen by a dirty brown colour.",
+                "own to black colour spots appear on leaf-veins and stem.",
+                "own colour spots appear on grains at grain formation stage."
+            ],
+            "Control Measures": [
+                " Can be controlled by spraying Dicofol @ 5 ml or spiromiciphen @ 1 ml per litre of water."
+            ]
+        },
+        {
+            "Name of the pest": "Cutworm (Spodoptera litura)",
+            "Season": "Kharif & Rabi",
+            "Time/Stage of occurence": "Vagetative stage",
+            "Symptoms": [
+                "At early stages larvae cut the  seedlings at bases.",
+                "At grain formation stage larvae cuts the panicles.                                                      ",
+                "Skeletonized leaf surfaces can be observed at infestation."
+            ],
+            "Control Measures": [
+                "Remove weeds and stubbles after harvesting.",
+                "Avoid green manure and apply Farm Yard Manure to prevent cutworm egg laying.",
+                "Spray Quinolphos 20 EC @ 2 litre/ha or Phoshalone 35 EC @ 1.25 litre/ha."
+            ]
+        },
+        {
+            "Name of the pest": "Case worm (Parapoynx stagnalis)",
+            "Season": "Kharif & Rabi",
+            "Time/Stage of occurence": "Tillering stage",
+            "Symptoms": [
+                "Caterpillars feed on green tissues of the leaves causing whitish papery appearance.",
+                "Tubular cases around the tillers by cutting the apical portion of leaves. ",
+                "Floating of tubular cases on the water.  ",
+                "Cutting off leaf tips to make leaf cases."
+            ],
+            "Control Measures": [
+                "Spiders, dragonflies, and birds eat the adults.",
+                "Use of NPV is effective against the rice caseworm. ",
+                "Spraying of 0.5 ml Fenitrothion 100EC or 0.9ml Diazinon 60EC or 1.5ml Fenthoate 50EC or 2ml Phasalone 35EC or 2ml Quinolphos 25EC in 1 liter of water at 10-12 days interval."
+            ]
+        },
+        {
+            "Name of the pest": "Army worm (Mythimna seperata)",
+            "Season": "Kharif & Rabi",
+            "Time/Stage of occurence": "Nursery & Vegetative stage",
+            "Symptoms": [
+                "Larvae cut the seedlings on large scale in the nursery.",
+                "Severe infestation causes cattle grazing appearance to the field.",
+                "Larvae cuts the ear-heads at botton, due to this seedlings get bent or shatters.",
+                "They feed gregariously and march from field to field."
+            ],
+            "Control Measures": [
+                "Flooding the nursery brings up the larvae to the surface which are eaten by the birds.                                                                                                               ",
+                "Drain out the water in the main field.                                                                    ",
+                "Kerosenate the water while irrigation - causes suffecation of the larve.        ",
+                "Allow Ducks in to the field.                                                                                  ",
+                "Spray Chloripyriphose 20 EC 2 ml /litre of water in the nursery and main field."
+            ]
+        },
+        {
+            "Name of the pest": "Thrips (Stenchaetothrips biformis)",
+            "Season": "Kharif & Rabi",
+            "Time/Stage of occurence": "Nursery and Vegetative stage",
+            "Symptoms": [
+                "Laceration of the tender leaves and sucking of  the plant sap.",
+                "Yellow (or) silvery streaks on the leaves of young seedlings.",
+                "Terminal rolling and drying of leaves from tip to base.",
+                "Damaged leaves roll inwards along the margins, feeding causes leaf drying resulting in poor crop growth. ",
+                "The leaves look like needles.",
+                "The damage is severe under water stress conditions.",
+                "It causes damage both in nursery and the main field."
+            ],
+            "Control Measures": [
+                "Economic Threshold Level : Sampling - Wet your palm with water and pass over the foliage in 12 places in the nursery. If thrips population exceeds 60 numbers in 12 passes or if rolling of half of the  area of first and second leaves in 10% of seedlings is noticed.",
+                "Spray with Phosphamidon (40 SL) 2 ml or Phenytoin 2 ml or Quinolphos 2 ml or Monocrotophos 1.6 ml or Pipranil 2 ml per liter of water."
+            ]
+        },
+        {
+            "Name of the pest": "Gundhi bug (Leptocorisa oratoria)",
+            "Season": "Kharif",
+            "Time/Stage of occurence": "Milky stages",
+            "Symptoms": [
+                "The nymphs and adults suck the milk from the developing grains and stem in the early stage of grain formation.",
+                "Discolouration of panicles and empty or chaffy grains in the panicles.",
+                "Infested paddy straw causes foul smell."
+            ],
+            "Control Measures": [
+                "lorpyrifos 2.5 ml or Dichlorvase 1.0 ml or Malathion 2 ml / liter should be sprayed in the evening from the edge of the field to the middle of the field."
+            ]
+        },
+        {
+            "Name of the pest": " Shoot fly (Atherigona naqvii)",
+            "Season": "Kharif",
+            "Time/Stage of occurence": "Seedling to Panicle Initiation stage",
+            "Symptoms": [
+                "The newly hatched maggots creep into the leaf sheaths of the tillers and cut the central growing shoots causing dead hearts.",
+                "With severe infestation, the plants become bushy  with large number of tillers."
+            ],
+            "Control Measures": [
+                "Timely sown crop escapes the  pest incidence. Therefore in endemic areas, timely nursery raising and transplanting are important.",
+                "To control shoot fly incidence ( if dead hearts noticed ) in late sown crop, spray Cypermethrin @ 50 gm a.i./ha"
+            ]
+        }
+    ],
+    "diseases": [
+        {
+            "Name of the pest": "Blast  --Leaf blast and  Neck blast (Magnaporthe grisea)",
+            "Season": "Kharif & Rabi",
+            "Time/Stage of occurence": "Nursery,  Vegetative stage & Flowering Stage",
+            "Symptoms": [
+                "On the leaves, yarn-shaped spots will be formed and gradually enlarge. These spots will be in dark brown or black and the middle part of the spots will be in gray.",
+                "The Neck Region of the panicle develops black color.",
+                "If it infects the nodes, the nodes will break in that area and rotten at the neck, causes to break and fall. The seeds become chaffy, the percentage will also be higher.",
+                "Neck region of panicle develops black color.",
+                "Grain Shrivels completely / partially grain set inhibited, panicle breaks at the neck and hangs"
+            ],
+            "Control Measures": [
+                "Early nursery raising and transplantation minimises the incidence of the  disease",
+                "Excessive use of nitrogen fertilizer should be avoided.",
+                "Nitrogen should be applied in split doses as recommended ",
+                "Spray tricylazole 75% WP @ 0.6 gm/litre or Propiconazole 25% EC 1 ml/ litre or Carbendazim 50% WP @ 1gm/litre of water."
+            ]
+        },
+        {
+            "Name of the pest": "Brown Leaf Spot (Cochliobolus miyabeanus)",
+            "Season": "Kharif & Rabi ",
+            "Time/Stage of occurence": "Vegetative stage",
+            "Symptoms": [
+                "Irregular, rectangular brown spots with yellow hallow appear on leaf blades and leaf sheaths.",
+                "In severely affected seedlings, the leaves dry out and die.",
+                "Severely affected areas can be distinguished by brown scorched appearance.",
+                "Discoloration of the stem is a symptom of this pest."
+            ],
+            "Control Measures": [
+                "Spraying of crop at tillering and late booting stages with Carbendazim 12% + Mancozeb 63% WP @ 1gm/litre or Zineb @ 2 gm/litre of water. Repeat the spray after 15 days."
+            ]
+        },
+        {
+            "Name of the pest": "False smut (Ustilaginoidea virens)",
+            "Season": "Kharif",
+            "Time/Stage of occurence": "Post Flowering Stage",
+            "Symptoms": [
+                "The disease occurs in the field at the hard dough to mature stage of the crop. ",
+                "The fungus transforms individual grains of the panicle into greenish spore balls that have a velvety appearance. ",
+                "They are covered with a membrane that bursts as a result of further growth."
+            ],
+            "Control Measures": [
+                "Keep the field clean. Remove infected seeds, panicles, and plant debris after harvest.",
+                "Reduce humidity levels through alternate wetting and drying (AWD) rather than permanently flooding the fields.",
+                "Treat seeds at 52\u00b0C for 10 min.                                                                               \u2022",
+                "Applying Propiconzol (0.6 ml/lit) or Hexaconazole 5% EC 50 gm /lit."
+            ]
+        },
+        {
+            "Name of the pest": "Sheath rot (Acrocylindrium oryzaee)",
+            "Season": "Kharif",
+            "Time/Stage of occurence": "Post Flowering Stage",
+            "Symptoms": [
+                "The lesions start as oblong or somewhat irregular spots on the leaf sheath, with gray to light brown centers surrounded by distinct dark reddish-brown margins.",
+                "As the disease progresses, the lesions enlarge and coalesce and may cover most of the leaf sheath. ",
+                "Rotting occurs on the leaf sheath that encloses the young panicles.",
+                "Cappy grains are formed in partially developed panicle."
+            ],
+            "Control Measures": [
+                "Treat the seeds with Pseudomonas fluorescens @ 10 gm/kg of seed followed by seedling dip @ 2.5 kg of products/ha dissolved in 100 litres and dipping for 30 minutes. ",
+                "Soil application of P. fluorescens @ of 2.5 kg/ha after 30 days of transplanting (This product should be mixed with 50 kg of Farm Yard Manure/Sand and then applied).",
+                "Foliar spray at 0.2% concentration Pseudomonas fluorescens   commencing from 45 days after transplanting at 10 days interval for 3 times depending upon the intensity of disease ",
+                "Spray Carbendazim 250 gm or Chlorothalonil 1 kg or Edifenphos 1 litre /ha. Edifenphos to be applied through high volume sprayers only."
+            ]
+        },
+        {
+            "Name of the pest": "Stem rot (Sclerotium oryzae)",
+            "Season": "Kharif",
+            "Time/Stage of occurence": "Vegetative & Flowering stage",
+            "Symptoms": [
+                "Small, circular, and dark brown to purple lesions will be developed on the stem. ",
+                "With the progress of the disease, the lesions become circular to oval with a light brown to gray center, surrounded by a reddish-brown margin. ",
+                "The nodes decompose and the stem collapses. It inhibits grain development and results in development of chaffy grains.",
+                "The base of the stem shows discoloration and dark mycelium develops inside the culm."
+            ],
+            "Control Measures": [
+                "Burning straw and stubble or any crop residue after harvest or letting the straw decompose and draining the field can reduce sclerotia in the field.",
+                " Balanced use of fertilizer and split application of  nitrogen as recommended. Application of recommended dose of potash and lime (to increase soil pH) reduces stem rot incidence.",
+                "Chemicals such as Fentin hydroxide @ 2 ml / litre sprayed at the mid-tillering stage.",
+                "Thiophanate-methyl 70% WP @ 1.5 g / litre sprayed at the time of disease initiation can reduce stem rot incidence in the rice field."
+            ]
+        },
+        {
+            "Name of the pest": "Foot rot/Bakanae (Fusarium\nmoniliforme)",
+            "Season": "Kharif",
+            "Time/Stage of occurence": "Seedling to Milky  stage",
+            "Symptoms": [
+                "Abnormal elongation or hypertrophic growth of the seedling is caused by the hormone gibberellin, which is produced by the infecting organism. The stem grows abnormally and the inside of the stem rots.",
+                "Tillers come in less in number. ",
+                "New roots come from the upper nodes."
+            ],
+            "Control Measures": [
+                "Clean seeds should be used to minimize the occurrence of the disease.",
+                "Immerse seed in 5% salt water to separate light weight, infected seeds from the seed lot, and thereby reduce seedborne inoculum. ",
+                "Seed treatment using fungicides such as thiram @ 3g / Kg, or Thiophanate-methyl @ 1 gm / Kg is effective before planting. ",
+                "Steeping seeds in 1% CuSO4 solution is highly effective."
+            ]
+        },
+        {
+            "Name of the pest": "Sheath blight (Rhizoctonia solani AG1-IA)",
+            "Season": "Kharif/Rabi",
+            "Time/Stage of occurence": "Maximum tillering, Panicle Initiation to Booting Stage",
+            "Symptoms": [
+                "Oval or ellipsoidal greenish gray lesions, usually 1-3 cm long, on the leaf sheath, initially just above the soil or water level in the case of conventionally flooded rice.",
+                "Gradually these initial lesions multiply and expand to the upper part of the sheaths, the leaves, and neighboring tillers. ",
+                "Lesions on the leaves usually are irregular, often with gray-white centers and brown margins as they grow older."
+            ],
+            "Control Measures": [
+                "Spray the crop with Propiconazole 25% EC @ 1ml/litre or Carbenbendazim 50% WP @ 1gm/litre or Hexaconazole 5% EC @ 1 ml/litre of water at booting stage.",
+                "Repeat the spray after 15 days interval."
+            ]
+        },
+        {
+            "Name of the pest": "Bacterial blight (Xanthomonas oryzae pv.)",
+            "Season": "Kharif",
+            "Time/Stage of occurence": "Pre-tillering to midtillering, and panicle initiation to booting ",
+            "Symptoms": [
+                "It causes wilting of seedlings and yellowing and drying of leaves."
+            ],
+            "Control Measures": [
+                "Spray fresh cowdung extract 20% twice (starting from initial appearance of the disease and another at fortnightly interval).",
+                "Neem oil 60 EC 3% (or) NSKE 5% is recommended for the control of bacterial blight."
+            ]
+        }
+    ]
+}
