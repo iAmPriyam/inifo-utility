@@ -13,7 +13,8 @@ import {
 import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 import CKEditor from "@ckeditor/ckeditor5-react";
 import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
-import pests_and_diseases from "../shared/constants/pests_and_disease.json";
+import routePath from "../shared/constants/RoutePath";
+import { create } from "../shared/constants/pests_and_diseases";
 const style = {
     main_container: {
         minHeight: "100vh",
@@ -29,16 +30,13 @@ const style = {
     },
 };
 
-export default function PestAndDiseases() {
+export default function InsertData() {
     const [name, setName] = useState("");
     const [type, setType] = useState("");
     const [season, setSeason] = useState("");
     const [time, setTime] = useState("");
     const [symptoms, setSymptoms] = useState("");
     const [measures, setMeasures] = useState("");
-    let data = pests_and_diseases;
-    data = {};
-    console.log(data);
     return (
         <>
             <Grid
@@ -52,7 +50,7 @@ export default function PestAndDiseases() {
             ></Grid>
             <Grid
                 container
-                justify="center"
+                justify="flex-start"
                 alignItems="center"
                 style={style.main_container}
                 direction="column"
@@ -64,7 +62,10 @@ export default function PestAndDiseases() {
                     style={style.wrapper}
                 >
                     <Grid container>
-                        <Fab color="primary" href="\">
+                        <Fab
+                            color="primary"
+                            href={routePath.PESTS_AND_DISEASES}
+                        >
                             <ArrowBackIcon />
                         </Fab>
                     </Grid>
@@ -277,6 +278,7 @@ export default function PestAndDiseases() {
                                     let data = { pest: [] };
                                     data["pest"].push(value);
                                     console.log(data);
+                                    create(data);
                                 }}
                             >
                                 Submit
